@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
 		}
 		else {
 			real = -b / (2 * a);
-			imaginary = sqrt(fabs(disc)) / (2 * a);
+			imaginary = sqrt(fabs(disc)) / (2 * a); /* sqrt() won't take a negative argument, so we find the floating point absolute value with fabs() */
 			printf("iroot1: %.5lf+%.5lfi\n", real, imaginary);
 			printf("iroot2: %.5lf-%.5lfi\n", real, imaginary);
 		}
