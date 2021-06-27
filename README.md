@@ -15,6 +15,19 @@ Takes exactly three real number arguments in order a b c. a should never be set 
 root 1: -0.08867
 root 2: -4.00972
 ```
+```
+./quad 2 4 2
+```
+```
+Both roots: -1.00000
+```
+```
+./quad 10 20 40
+```
+```
+iroot1: -1.00000+1.73205i
+iroot2: -1.00000-1.73205i
+```
 # The Maths
 This program will give different results depending on the domain of the discriminant (the result under the square root symbol)
 
