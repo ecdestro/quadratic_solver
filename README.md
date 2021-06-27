@@ -1,5 +1,5 @@
 # quadratic_solver
-Given three values, compute the answer(s) (zeroes) to the quadratic formula to give decimal places.
+Given three values, compute the answer(s) (zeroes) to the quadratic formula to five decimal places.
 
 Depends on math.h, errno.h, and stdlib.h
 
