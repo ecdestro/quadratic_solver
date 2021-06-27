@@ -3,7 +3,7 @@ Given three values, compute the answer(s) (zeroes) to the quadratic formula to f
 
 Depends on math.h, errno.h, and stdlib.h
 
-Compile with libm
+Link with libm, it's not enough to just include math.h
 ```
 gcc -o quad quad_solv.c -lm
 ```
