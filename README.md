@@ -22,6 +22,12 @@ Both roots: -1.00000
 iroot1: -1.00000+1.73205i
 iroot2: -1.00000-1.73205i
 ```
+Python version built for Python3
+```
+python quad.py a b c
+```
+where a cannot equal zero
+
 # The Maths
 This program will give different results depending on the domain of the discriminant (the result under the square root symbol)
 
